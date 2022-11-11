@@ -10,4 +10,5 @@ class ProductSerializer(serializers.ModelSerializer):
         'description', 
         'price', 
         'inventory_quantity',
+        'link_to_image',
         ]
